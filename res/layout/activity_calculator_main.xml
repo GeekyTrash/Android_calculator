@@ -1,0 +1,146 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp" >
+
+        <EditText
+            android:id="@+id/mathText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:editable="true"
+            android:ems="15"
+            android:inputType="none|number"
+            android:longClickable="false" >
+
+            <requestFocus />
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="75dp"
+                android:layout_height="65dp"
+                android:text="@string/sevenstring" />
+
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="75dp"
+                android:layout_height="65dp"
+                android:text="@string/eightstring" />
+
+            <Button
+                android:id="@+id/nine"
+                android:layout_width="75dp"
+                android:layout_height="65dp"
+                android:text="@string/ninestring" />
+
+            <Button
+                android:id="@+id/multiply"
+                android:layout_width="75dp"
+                android:layout_height="65dp"
+                android:text="@string/multiply" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp" >
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="75dp"
+                android:layout_height="65dp"
+                android:text="@string/fourstring" />
+
+            <Button
+                android:id="@+id/five"
+                android:layout_width="75dp"
+                android:layout_height="65dp"
+                android:text="@string/fivestring" />
+
+            <Button
+                android:id="@+id/six"
+                android:layout_width="75dp"
+                android:layout_height="65dp"
+                android:text="@string/sixstring" />
+
+            <Button
+                android:id="@+id/divide"
+                android:layout_width="75dp"
+                android:layout_height="65dp"
+                android:text="@string/divide" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp" >
+
+            <Button
+                android:id="@+id/one"
+                android:layout_width="75dp"
+                android:layout_height="65dp"
+                android:text="@string/onestring" />
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="75dp"
+                android:layout_height="65dp"
+                android:text="@string/twostring" />
+
+            <Button
+                android:id="@+id/three"
+                android:layout_width="75dp"
+                android:layout_height="65dp"
+                android:text="@string/threestring" />
+
+            <Button
+                android:id="@+id/subtract"
+                android:layout_width="75dp"
+                android:layout_height="65dp"
+                android:text="@string/subtract" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp" >
+
+            <Button
+                android:id="@+id/clear"
+                android:layout_width="151dp"
+                android:layout_height="65dp"
+                android:text="@string/clear_string" />
+
+            <Button
+                android:id="@+id/zero"
+                android:layout_width="75dp"
+                android:layout_height="65dp"
+                android:text="@string/zerostring" />
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="75dp"
+                android:layout_height="65dp"
+                android:text="@string/add" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/equals"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:text="@string/equals" />
+
+    </LinearLayout>
